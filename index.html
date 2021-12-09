@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Horloge</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width ,initial-scale-1">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+     <div class="container">
+         <div class="row">
+            <h1>Bienvenue sur le site de l'horloge :</h1>
+             <div class="col-sm 3 mx-auto mt-5 text center">
+                 <div class="mb-6">
+                     <label for="valeur-heure" class="form-label">Entrez une heure :</label>
+                     <input type="number" class="form-control" id="valeur-heure" aria-describedby="valeur-heure">
+                     <label for="valeur-minute" class="form-label">Entrez les minutes :</label>
+                     <input type="number" class="form-control" id="valeur-minute" aria-describedby="valeur-minute">
+                     <label for="valeur-seconde" class="form-label">Entrez les secondes :</label>
+                     <input type="number" class="form-control" id="valeur-seconde" aria-describedby="valeur-seconde">
+                     <div class="form-text">Quel heure sera t'il dans une seconde :</div>
+                 </div>
+                 <button type="submit" id="bouton" class="btn btn primary mt-5 ,">Afficher l'heure</button>
+             </div>
+         </div>
+         <div class="row">
+             <div class="col-sm-3 mx-auto mt-5 text-center">
+                 <div id="message"></div>
+             </div>
+         </div>
+     </div>
+    </body>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</html>
